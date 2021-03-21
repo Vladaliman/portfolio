@@ -61,7 +61,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: rgba(darken($primary-color, 5), 0.8);
+    background: rgba(darken($primary-color, 5), 0.9);
     list-style: none;
     // slide out of the view
     transform: translate3d(0, -100%, 0);
@@ -75,7 +75,7 @@
 
   //Branding side
   &-branding {
-    background: rgba($primary-color, 0.8);
+    background: rgba($primary-color, 0.9);
     // slide out of the view
     transform: translate3d(0, 100%, 0);
     @include easeOut;

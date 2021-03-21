@@ -119,8 +119,15 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
 
+  .project-heading {
+    margin: 0.3rem 0;
+    text-align: center;
+    font-weight: bolder;
+  }
+
   img {
     width: 100%;
+
     border: 3px set-text-color($primary-color) solid;
 
     &:hover {
@@ -166,6 +173,7 @@ main {
   &:hover {
     background: $secondary-color;
     color: set-text-color($secondary-color);
+    @include easeOut;
   }
 }
 
