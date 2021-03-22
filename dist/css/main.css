@@ -294,5 +294,7 @@ main {
       font-size: 4rem; }
     main h2.sm-heading {
       padding: 0; }
+  .boxes div {
+    font-size: 1rem; }
   .projects {
     grid-template-columns: 1fr; } }
